@@ -47,7 +47,7 @@ export default function Modal({ puzzle, setModaleIsVisible, setVisibleTiles }) {
                 onClick={() => setModaleIsVisible(false)}
                 />
                 <span className={`finish-message ${messageVisible ? 'finish' : ''}`}>
-                    Félicitations, vous avez terminé le puzzle !
+                    Félicitation, vous avez terminé le puzzle !
                 </span>
                 <div className="puzzle">
                     {order.map((img) => {
